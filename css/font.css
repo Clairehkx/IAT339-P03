@@ -1,0 +1,39 @@
+@font-face {
+	font-family: 'Nova';
+	font-weight: normal;
+	src: url('../fonts/Mark Simonson - Proxima Nova Thin-webfont.ttf');
+}
+
+@font-face {
+	font-family: 'Nova';
+	font-weight: bold;
+	src: url('../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf');
+
+}
+
+@font-face {
+	font-family: 'Bodoni';
+	font-weight: normal;
+	src: url('../Bodoni/BauerBodoniStd-Roman.otf');
+}
+
+@font-face {
+	font-family: 'Bodoni';
+	font-weight: bold;
+	src: url('../Bodoni/BauerBodoniStd-Bold.otf');
+
+}
+
+@font-face {
+	font-family: 'Din';
+	font-weight: normal;
+	src: url('../Din/DINPro-Light.otf');
+
+}
+
+@font-face {
+	font-family: 'Din';
+	font-weight: bold;
+	src: url('../Din/DINPro-Medium.otf');
+
+}

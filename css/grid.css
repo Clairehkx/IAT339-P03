@@ -1,0 +1,30 @@
+.nav-container{
+  display: flex;
+  direction: horizontal;
+  width: 100%;
+}
+.icons{
+  padding-top: 0.8em;
+  display: flex;
+  direction: horizontal;
+  flex:1;
+}
+
+.title{
+  flex:1;
+}
+
+.grid-col-1of3{
+  flex:1;
+  text-align: center;
+}
+
+.work-container{
+	display: flex;
+	direction: horizontal;
+  align-items: stretch;
+}
+
+.work-item{
+	margin: 0.5em;
+}
