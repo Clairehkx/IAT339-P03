@@ -150,15 +150,15 @@ ul{
 	display:flex;
 	direction: vertical;
 	align-items: flex-end;
-	margin-top:20%;
+	margin-top:15%;
 }
 
 .home-img{
-	flex:2;
+	flex:3;
 }
 
 .home-items{
-	flex: 1;
+	flex: 2;
 	padding-left: 2em;
 }
 
@@ -166,8 +166,8 @@ ul{
 	max-width: 100%;
 }
 .home-items h2{
-	font-size:16px;
-	line-height: 20px;
+	font-size:14px;
+	line-height: 18px;
 }
 
 .title a{
