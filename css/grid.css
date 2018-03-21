@@ -1,12 +1,80 @@
+.contact-page-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 8%;
+  margin-bottom: 5%;
+}
+
+.heading-container{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.home-container{
+	display:flex;
+	flex-direction:row;
+	align-items: flex-end;
+	margin-top:15%;
+	margin-bottom: 10%;
+}
+
+.home-img{
+	flex:3;
+}
+
+.home-items{
+	flex: 2;
+	/* padding: 0.5em 1em 0.5em 1em; */
+	margin-left: 2em;
+
+}
+
+.home-img img{
+	max-width: 100%;
+
+}
+.home-items h2{
+	font-size:1.5em;
+	border-top: 5px solid #69A2A0;
+}
+
+.home-items p{
+	padding-top: 1em;
+}
+
+.lupii-container{
+	display:flex;
+	flex-direction:row;
+	align-items: flex-end;
+	margin-top:5%;
+	margin-bottom: 5%;
+}
+
+.lupii-img{
+	flex:3;
+}
+
+.lupii-items{
+	flex: 2;
+	/* padding: 0.5em 1em 0.5em 1em; */
+	margin-left: 2em;
+}
+
+.lupii-para{
+	margin-top:5%;
+	margin-bottom:5%;
+}
+
 .nav-container{
   display: flex;
-  direction: horizontal;
+  flex-direction: row;
   width: 100%;
 }
 .icons{
   padding-top: 0.8em;
   display: flex;
-  direction: horizontal;
+  flex-direction: row;
   flex:1;
 }
 
@@ -14,17 +82,89 @@
   flex:1;
 }
 
-.grid-col-1of3{
+.nav-container .grid-col-1of3{
   flex:1;
-  text-align: center;
+  text-align: right;
 }
 
 .work-container{
 	display: flex;
-	direction: horizontal;
+	flex-direction: row;
   align-items: stretch;
 }
 
 .work-item{
 	margin: 0.5em;
+}
+
+@media(max-width: 50em){
+  .home-container{
+  	flex-direction:column;
+  	align-items: center;
+  	margin-top:15%;
+  	margin-bottom: 10%;
+  }
+
+  .home-img{
+  	flex:1;
+  }
+
+  .home-items{
+  	flex: 1;
+    margin-top: 1em;
+  	margin-left: 0em;
+  }
+
+}
+@media(max-width: 60em){
+  .nav-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+    border-bottom: 2px solid #69A2A0;
+  }
+
+  .icons{
+    padding-top: 0.8em;
+    display: flex;
+    flex-direction: row;
+    flex:1;
+  }
+
+  .title{
+    flex:1;
+  }
+
+  .nav-container .grid-col-1of3{
+    flex:1;
+    text-align: center;
+  }
+  .lupii-container{
+  	display:flex;
+  	flex-direction:column;
+  	align-items: center;
+  	margin-top:5%;
+  	margin-bottom: 5%;
+  }
+
+  .lupii-img{
+  	flex:3;
+  }
+
+  .lupii-items{
+  	flex: 2;
+  	margin-top: 1em;
+  	margin-left: 0em;
+  }
+
+  .lupii-para{
+  	margin-top:5%;
+  	margin-bottom:5%;
+  }
+
+
 }
